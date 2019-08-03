@@ -8,9 +8,11 @@ Created on Wed Jul 31 16:00:13 2019
 import numpy as np
 
 def py_dv2m(vec,n):
+    # TRANSFORMS VECTOR TO MATRIX
     dim_x = int(vec.shape[0])
     N = int(dim_x / n)
 
+    # GET SHAPE OF FINAL MATRIX
     indexes_1 = np.ones((N,1)) * np.arange(1,n+1)
     indexes_2 = np.array((np.arange(0,(N*n - 1),n))) * np.ones((1,n))
     indexes_2 = indexes_2.transpose()

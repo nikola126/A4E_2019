@@ -7,6 +7,7 @@ Created on Wed Jul 31 17:40:41 2019
 import numpy as np
 
 def py_repmatc(X,m):
+    # APPENDS MATRIX TO MATRIX
     n = np.shape(X)
     n = n[1]
     
@@ -15,7 +16,6 @@ def py_repmatc(X,m):
     extender = X
     # APPEND M TIMES
     for times in range(m-1):
-        #print("Appending")
         X = np.append(X,extender,axis = 1)
     return X
 

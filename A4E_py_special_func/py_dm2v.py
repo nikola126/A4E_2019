@@ -8,6 +8,7 @@ import numpy as np
 
 
 def py_dm2v(mat):
+    # TRANSFORMS A MATRIX TO A VECTOR
     vec = mat.flatten()
     return vec
 
