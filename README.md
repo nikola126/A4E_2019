@@ -2,7 +2,7 @@
 ## 3/8/2019
 Съдържа функциите от MATLAB\
 Съдържа данните\
-Ще съдържа функциите от MATLAB написани на Python\
+Ще съдържа функциите от MATLAB написани на Python
 
 "Сваляне" на repository:\
 https://help.github.com/en/articles/cloning-a-repository\
