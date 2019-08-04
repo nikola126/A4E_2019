@@ -59,7 +59,7 @@ n = max(par_na,par_nb)
 # dictionary?
 mdl = lspv(U,Y,par_intercept,par_matrix_type,par_na,par_nb)
 # mdl e struktura ot struktura i matrica (dictionary?)
-Ym1 = lpsv_apl(U,Y,mdl)
+Ym1 = lspv_apl(U,Y,mdl)
 # Ym1 e matrica s dve koloni
 
 
