@@ -47,4 +47,12 @@ def dmpm(U,Y,E,par_na = 0, par_nb = 0, par_nc = 0, par_intercept = 0):
         # F = [F -Y(n - na + i:N - na + i - 1, :)]
         # ????????
         
+        row_idx_start = (n-na+i)
+        row_idx_end = (N-na+i-1)
+        
+        val_to_append = Y[row_idx_start:row_idx_end,:] * (-1)
+        # axis = ???
+        # v kakva posoka raste F ???
+        F = np.append(F,val_to_append,axis = 0)
+        
     
